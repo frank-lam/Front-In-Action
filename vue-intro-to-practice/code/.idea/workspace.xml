@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="285af40a-1cb5-44e2-8370-2951eb75ccc0" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/../ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/01-01.初学编写HelloWorld 和 Counter/01-01.初学编写HelloWorld 和 Counter/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/01-02.编写字符串反转和内容隐藏小功能/Hello World/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/01-03.编写TodoList 小功能，了解循环和双向绑定/Hello World/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/01-04.组件概念初探，对 TodoList 进行组件代码拆分/Hello World/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/02-01.Vue 应用和组件的基础概念/Hello World/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/02-02.Vue的生命周期/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/02-03.常用模版语法讲解/lesson 7/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/02-04.数据，方法，计算属性和侦听器/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/02-05.样式绑定语法/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/02-06.条件渲染/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/02-07.列表循环渲染/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/02-08.事件绑定/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/02-09.表单中双向绑定指令的使用/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/03-01.组件的定义及复用性，局部组件和全局组件/components.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/03-01.组件的定义及复用性，局部组件和全局组件/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/03-02.组件间传值及传值校验/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/03-03.单项数据流的理解/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/03-04.Non-Props 属性是什么/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/03-05.父子组件间如何通过事件进行通信/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/03-06.组件间双向绑定高级内容（选学）/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/03-07.使用插槽和具名插槽解决组件内容传递问题/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/03-08.作用域插槽/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/03-09.动态组件和异步组件/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/03-10.基础语法知识点查缺补漏/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/04-01.使用 Vue 实现基础的 CSS 过渡与动画效果/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/04-02.使用 transition 标签实现单元素组件的过渡和动画效果（1）/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/04-03.使用 transition 标签实现单元素组件的过渡和动画效果（2）/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/04-04.组件和元素切换动画的实现/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/04-05.列表动画/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/04-06.状态动画/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/05-01.Mixin 混入的基础语法/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/05-02.开发实现 Vue 中的自定义指令/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/05-03.Teleport 传送门功能/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/05-04.更加底层的 render 函数（选穴）/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/05-05.插件的定义和使用/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/05-06.数据校验插件开发实例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/06-01.Setup 函数的使用/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/06-02.ref，reactive 响应式引用的用法和原理/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/06-03.toRef 以及 context 参数/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/06-04.使用 Composition API 开发TodoList/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/06-05.computed方法生成计算属性/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/06-06.watch 和 watchEffect 的使用和差异性/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/06-07.生命周期函数的新写法/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/06-08.Provide,Inject,模版 Ref 的用法/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-01.VueCLI 的使用和单文件组件/demo/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-02.使用单文件组件编写 TodoList/demo/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-02.使用单文件组件编写 TodoList/demo/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-02.使用单文件组件编写 TodoList/demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-02.使用单文件组件编写 TodoList/demo/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-02.使用单文件组件编写 TodoList/demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-02.使用单文件组件编写 TodoList/demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-02.使用单文件组件编写 TodoList/demo/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-02.使用单文件组件编写 TodoList/demo/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-02.使用单文件组件编写 TodoList/demo/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-02.使用单文件组件编写 TodoList/demo/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-02.使用单文件组件编写 TodoList/demo/src/components/ListItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-02.使用单文件组件编写 TodoList/demo/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-03.Vue-Router 路由的理解和使用/demo/src/views/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-04.VueX 的语法详解/demo/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-05.CompositionAPI 中如何使用 VueX/demo/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/07-06.使用 axios 发送ajax 请求/demo/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-01.工程初始化/jingdong/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-02.工程目录代码简介及整理/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-02.工程目录代码简介及整理/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-02.工程目录代码简介及整理/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-02.工程目录代码简介及整理/jingdong/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-02.工程目录代码简介及整理/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-02.工程目录代码简介及整理/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-02.工程目录代码简介及整理/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-02.工程目录代码简介及整理/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-02.工程目录代码简介及整理/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-02.工程目录代码简介及整理/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-02.工程目录代码简介及整理/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-03.基础样式集成及开发模拟器的使用/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-03.基础样式集成及开发模拟器的使用/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-03.基础样式集成及开发模拟器的使用/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-03.基础样式集成及开发模拟器的使用/jingdong/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-03.基础样式集成及开发模拟器的使用/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-03.基础样式集成及开发模拟器的使用/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-03.基础样式集成及开发模拟器的使用/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-03.基础样式集成及开发模拟器的使用/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-03.基础样式集成及开发模拟器的使用/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-03.基础样式集成及开发模拟器的使用/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-03.基础样式集成及开发模拟器的使用/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-03.基础样式集成及开发模拟器的使用/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-04.flex + iconfont 完成首页 docker 样式编写/jindong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-05.使用Scss 组织地址区域布局/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-06.利用CSS技巧实现搜索及 banner 区域布局/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-07.使用 flex布局实现图标列表布局/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-08.首页布局收尾/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-09.首页组件的合理拆分/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-10.使用v-for, v-html 指令精简页面代码/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/08-11.CSS 作用域约束以及 Vue 开发者工具的安装使用/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-01.登陆页面布局开发/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-02.路由守卫实现基础登陆校验功能/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-03.注册页面开发及路由串联复习/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-04.使用axios 发送登陆 Mock 请求/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-05.请求函数的封装/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-06.Toast 弹窗组件的开发/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-07.通过代码拆分增加逻辑可维护性/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/09-08.Setup函数的指责以及注册功能的实现/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-01.首页附近店铺数据动态化/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-02～10-03.动态路由，异步路由与组件拆分复用/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-04～10-05.搜索布局及路由跳转/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-06～10-07.路由参数的传递以及商家详情的获取/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-08～10-09.商家页面核心样式开发/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-10～10-11.样式的优化与代码复用/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-12.商家详情页分类及内容联动的实现/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/10-13.使用 watchEffect 巧妙的进行代码拆分/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-01.购物车的样式开发/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-02～11-03.Vuex中购物车数据结构的设计/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-04.使用 computed 完成订单价格计算/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-05～11-06.购物车及列表双向数据同步功能开发/jingdong/src/views/shop/commonCartEffect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-07～11-08.根据购物车选中状态计算订单金额/jingdong/src/views/shop/commonCartEffect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-09～11-10.全选及清空购物车的功能实现/jingdong/src/views/shop/commonCartEffect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-11～11-12.商家详情页面代码优化/jingdong/src/views/shop/commonCartEffect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-13～11-14.购物车数据结构的变更/jingdong/src/views/shop/commonCartEffect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/views/cartList/CartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/11-15～11-16.通过 LocalStorage 实现购物车信息持久存储/jingdong/src/views/shop/commonCartEffect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/views/cartList/CartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/views/orderConfirmation/OrderConfirmation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-01.确认订单页面创建及顶部布局/jingdong/src/views/shop/commonCartEffect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/effects/cartEffects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/views/cartList/CartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/views/orderConfirmation/OrderConfirmation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-02.订单商品列表数据获取与布局/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/effects/cartEffects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/views/cartList/CartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/views/orderConfirmation/OrderConfirmation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-03.页面布局及展示逻辑开发/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/effects/cartEffects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/cartList/CartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/orderConfirmation/Order.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/orderConfirmation/OrderConfirmation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/orderConfirmation/ProductList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/orderConfirmation/TopArea.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-04.确认订单页面组件拆分及弹框布局制作/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/effects/cartEffects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/cartList/CartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/home/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/orderConfirmation/Order.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/orderConfirmation/OrderConfirmation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/orderConfirmation/ProductList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/orderConfirmation/TopArea.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-05.购物流程开发完成/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/components/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/effects/cartEffects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/cartList/CartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/orderConfirmation/Order.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/orderConfirmation/OrderConfirmation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/orderConfirmation/ProductList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/orderConfirmation/TopArea.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/orderList/OrderList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-06.下单流程开发优化，订单列表页布局开发/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/components/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/effects/cartEffects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/cartList/CartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/orderConfirmation/Order.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/orderConfirmation/OrderConfirmation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/orderConfirmation/ProductList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/orderConfirmation/TopArea.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/orderList/OrderList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/12-07.订单列表逻辑开发/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/components/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/effects/cartEffects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/cartList/CartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/orderConfirmation/Order.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/orderConfirmation/OrderConfirmation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/orderConfirmation/ProductList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/orderConfirmation/TopArea.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/orderList/OrderList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-02.解决真机调试过程中的展示问题/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/components/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/effects/cartEffects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/cartList/CartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/orderConfirmation/Order.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/orderConfirmation/OrderConfirmation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/orderConfirmation/ProductList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/orderConfirmation/TopArea.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/orderList/OrderList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-03.实现项目对不同设备的展示适配/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/components/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/effects/cartEffects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/cartList/CartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/orderConfirmation/Order.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/orderConfirmation/OrderConfirmation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/orderConfirmation/ProductList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/orderConfirmation/TopArea.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/orderList/OrderList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础阶段/13-04.项目上线和课程总结/jingdong/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/components/Address.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/components/Docker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/components/ShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/components/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/effects/addressEffect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/effects/cartEffects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/style/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/style/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/style/viriables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/cartList/CartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/chooseAddressList/ChooseAddressList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/home/Nearby.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/home/StaticPart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/myAddressList/MyAddressList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/orderConfirmation/Order.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/orderConfirmation/OrderConfirmation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/orderConfirmation/ProductList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/orderConfirmation/TopArea.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/orderConfirmation/addressEffect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/orderList/OrderList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/personalInfo/PersonalInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/shop/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/shop/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/src/views/upsertAddress/UpsertAddress.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/完整项目代码/jingdong/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/实战路线图.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/商家详情-购物车空状态.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/商家详情-遮罩.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/商家详情.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/我的-地址管理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/我的-新建地址.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/我的-编辑收货地址.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/我的.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/提交订单.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/搜索.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/搜索列表.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/支付成功弹窗.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/注册.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/登陆.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/确定提交弹窗.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/订单.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计图/设计图/购物车.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/._index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/Groups.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/basket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/basket@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/basket@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/医药健康.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/医药健康@1x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/医药健康@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/医药健康@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/大牌免运.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/大牌免运@1x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/大牌免运@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/大牌免运@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/头部.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/家居.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/家居@1x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/家居@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/家居@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/水果店.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/水果店@1x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/水果店@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/水果店@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/签到.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/签到@1x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/签到@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/签到@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/红包.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/红包@1x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/红包@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/红包@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/编组.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/编组@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/编组@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/菜市场.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/菜市场@1x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/菜市场@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/菜市场@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/蛋糕.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/蛋糕@1x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/蛋糕@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/蛋糕@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/超市.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/超市@1x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/超市@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/超市@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/鲜花.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/鲜花@1x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/鲜花@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/assets/鲜花@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-商家详情-购物车空状态.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-商家详情-遮罩.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-商家详情.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-我的-地址管理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-我的-新建地址.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-我的-编辑收货地址.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-我的.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-提交订单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-搜索.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-搜索列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-支付成功弹窗.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-注册.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-登陆.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-确定提交弹窗.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-订单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-购物车.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/._页面-1-首页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-商家详情-购物车空状态.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-商家详情-遮罩.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-商家详情.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-我的-地址管理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-我的-新建地址.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-我的-编辑收货地址.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-我的.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-提交订单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-搜索.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-搜索列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-支付成功弹窗.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-注册.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-登陆.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-确定提交弹窗.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-订单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-购物车.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/links/页面-1-首页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-商家详情-购物车空状态.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-商家详情-遮罩.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-商家详情.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-我的-地址管理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-我的-新建地址.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-我的-编辑收货地址.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-我的.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-提交订单.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-搜索.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-搜索列表.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-支付成功弹窗.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-注册.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-登陆.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-确定提交弹窗.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-订单.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-购物车.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实战阶段/设计标注/设计标注/preview/页面-1-首页.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data/code-for-project-master.7z" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1uevoEgzdQF8QeQtLtRho46woIn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="285af40a-1cb5-44e2-8370-2951eb75ccc0" name="Default Changelist" comment="" />
+      <created>1625039046267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625039046267</updated>
+      <workItem from="1625039049938" duration="84000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+</project>
