@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 15</title>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+  const app = Vue.createApp({
+    data() {
+      return { num: 1234 }
+    },
+    template: `
+      <div><test :content="num" /></div>
+    `
+  });
+
+  // type:String, Boolean, Array, Object, Function, Symbol
+  // required 必填
+  // default 默认值
+  app.component('test', {
+    props: {
+      content: {
+        type: Number,
+        validator: function(value) {
+          return value < 1000;
+        },
+        default: function() {
+          return 456;
+        }
+      }
+    },
+    template: `<div>{{content}}</div>`
+  });
+
+  const vm = app.mount('#root');
+</script>
+</html>

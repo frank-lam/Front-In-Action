@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 29</title>
+  <style>
+    .header { position: absolute}
+  </style>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+  // 自定义指令 directive
+
+  const app = Vue.createApp({
+    data() {
+      return {
+        distance: 110
+      }
+    },
+    template: `
+      <div>
+        <div v-pos:right="distance" class="header">
+          <input />
+        </div>
+      </div>
+    `
+  });
+
+  app.directive('pos', (el, binding) => {
+    el.style[binding.arg] = (binding.value + 'px');
+  })
+
+  const vm = app.mount('#root');
+</script>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <title>lesson 26</title>
+  <style>
+    .v-enter-from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    .v-enter-active {
+      transition: all .5s ease-in;
+    }
+    .v-enter-to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .v-move {
+      transition: all .5s ease-in;
+    }
+    .list-item {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  </style>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+  // 列表动画的实现
+  const app = Vue.createApp({
+    data() {
+      return { list: [1, 2, 3] }
+    },
+    methods: {
+      handleClick() {
+        this.list.unshift(this.list.length + 1);
+      },
+    },
+    template: `
+      <div>
+        <transition-group>
+          <span class="list-item" v-for="item in list" :key="item">{{item}}</span>
+        </transition-group>
+        <button @click="handleClick">增加</button>
+      </div>
+    `
+  });
+
+  const vm = app.mount('#root');
+</script>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 9</title>
+  <style>
+    .red {
+      color: red;
+    }
+    .green {
+      color: green;
+    }
+  </style>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+  const app = Vue.createApp({
+    data() {
+      return {
+        classString: 'red',
+        classObject: { red: false, green: true },
+        classArray: ['red', 'green', {brown: false}],
+        styleString: 'color: yellow;background: orange',
+        styleObject: {
+          color: 'orange',
+          background: 'yellow'
+        }
+      }
+    },
+    template: `
+      <div :style="styleObject">
+        Hello World
+      </div>
+    `
+  });
+
+  app.component('demo', {
+    template: `
+      <div :class="$attrs.class">one</div>
+      <div :class="$attrs.class">two</div>
+    `
+  })
+
+  const vm = app.mount('#root');
+</script>
+</html>

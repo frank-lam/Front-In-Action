@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 14</title>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+  // 组件的定义
+  // 组件具备复用性
+  // 全局组件，只要定义了，处处可以使用，性能不高，但是使用起来简单，名字建议 小写字母单词，中间用横线间隔
+  // 局部组件，定义了，要注册之后才能使用，性能比较高，使用起来有些麻烦，建议大些字母开头，驼峰命名
+  // 局部组件使用时，要做一个名字和组件间的映射对象，你不写映射，Vue 底层也会自动尝试帮你做映射
+
+  const Counter = {
+    data() {
+      return {
+        count: 1
+      }
+    },
+    template: `<div @click="count += 1">{{count}}</div>`
+  }
+
+  const HelloWorld = {
+    template: `<div>hello world</div>`
+  }
+
+  const app = Vue.createApp({
+    components: {
+      // counter: Counter,
+      // 'hello-world': HelloWorld,
+      Counter, HelloWorld,
+    },
+    template: `
+      <div>
+        <hello-world />
+        <counter />
+      </div>
+    `
+  });
+
+  // app.component('counter-parent', {
+  //   template: `<counter />`
+  // })
+
+  // app.component('counter', {
+  //   data() {
+  //     return {
+  //       count: 1
+  //     }
+  //   },
+  //   template: `<div @click="count += 1">{{count}}</div>`
+  // })
+
+
+  const vm = app.mount('#root');
+</script>
+</html>

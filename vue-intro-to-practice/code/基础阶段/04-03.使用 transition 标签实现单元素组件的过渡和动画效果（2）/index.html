@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <title>lesson 24</title>
+  <style>
+    /* @keyframes shake {
+      0% {
+        transform: translateX(-100px)
+      }
+      50% {
+        transform: translateX(-50px)
+      }
+      100% {
+        transform: translateX(50px)
+      }
+    }
+    .v-enter-from {
+      color: red;
+    }
+    .v-enter-active {
+      animation: shake 3s;
+      transition: color 10s ease-in;
+    }
+    .v-leave-active {
+      color: red;
+      animation: shake 3s;
+      transition: all 10s ease-in;
+    } */
+  </style>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+  // 单元素，单组件的入场出场动画
+  const app = Vue.createApp({
+    data() {
+      return {
+        show: false
+      }
+    },
+    methods: {
+      handleClick() {
+        this.show = !this.show;
+      },
+      handleBeforeEnter(el) {
+        el.style.color = "red";
+      },
+      handleEnterActive(el, done) {
+        const animation = setInterval(() => {
+          const color = el.style.color;
+          if(color === 'red') {
+            el.style.color = 'green';
+          } else {
+            el.style.color = 'red';
+          }
+        }, 1000)
+        setTimeout(() => {
+          clearInterval(animation);
+          done();
+        }, 3000)
+      },
+      handleEnterEnd(el) {
+        alert(123);
+      }
+    },
+    template: `
+      <div>
+        <transition
+          :css="false"
+          @before-enter="handleBeforeEnter"
+          @enter="handleEnterActive"
+          @after-enter="handleEnterEnd"
+        >
+          <div v-show="show">hello world</div>
+        </transition>
+        <button @click="handleClick">切换</button>
+      </div>
+    `
+  });
+
+  const vm = app.mount('#root');
+</script>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 27</title>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+  // 状态动画
+  const app = Vue.createApp({
+    data() {
+      return {
+        number: 1,
+        animateNumber: 1
+      }
+    },
+    methods: {
+      handleClick() {
+        this.number = 10;
+        if(this.animateNumber < this.number) {
+          const animation = setInterval(() => {
+            this.animateNumber += 1;
+            if(this.animateNumber === 10) {
+              clearInterval(animation);
+            }
+          }, 100);
+        }
+      },
+    },
+    template: `
+      <div>
+        <div>{{animateNumber}}</div>
+        <button @click="handleClick">增加</button>
+      </div>
+    `
+  });
+
+  const vm = app.mount('#root');
+</script>
+</html>
