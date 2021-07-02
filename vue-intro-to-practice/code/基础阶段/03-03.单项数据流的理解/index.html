@@ -29,6 +29,7 @@
 
   app.component('counter', {
     props: ['count'],
+    // 如果强行修改, 会提示 [Vue warn]: Attempting to mutate prop "count". Props are readonly.
     template: `<div @click="count += 1">{{count}}</div>`
   });
 
