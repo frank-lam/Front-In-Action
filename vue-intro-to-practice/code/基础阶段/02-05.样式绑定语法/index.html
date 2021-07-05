@@ -18,6 +18,8 @@
   <div id="root"></div>
 </body>
 <script>
+  // 组件中可以通过`:class="$attrs.class"` 决定是否使用class
+  // 组件中可以通过`:style="$attrs.style"` 决定是否使用style
   const app = Vue.createApp({
     data() {
       return {
@@ -32,8 +34,11 @@
       }
     },
     template: `
-      <div :style="styleObject">
+      <div>
         Hello World
+        <br>
+        ------------------------------------
+        <demo :style="styleObject" :class="classObject"/>
       </div>
     `
   });
@@ -41,7 +46,10 @@
   app.component('demo', {
     template: `
       <div :class="$attrs.class">one</div>
-      <div :class="$attrs.class">two</div>
+      <div>two</div>
+      ------------------------------------
+      <div :style="$attrs.style">three</div>
+      <div>four</div>
     `
   })
 

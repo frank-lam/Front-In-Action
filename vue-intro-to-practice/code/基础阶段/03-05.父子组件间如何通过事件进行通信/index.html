@@ -10,27 +10,60 @@
   <div id="root"></div>
 </body>
 <script>
+  // 1. 通过自定义事件传递
+  //    如果组件中 emit使用驼峰命名, 接收时需要使用kebab-case, 因此，推荐始终使用 kebab-case 的事件名。
+  // 2. 通过v-model 实现双向绑定
+  //    2-1. 默认变量名称: 默认的prop为: modelValue
+  //    2-2. 自定义变量名称: v-model:count1
   const app = Vue.createApp({
     data() {
-      return { count: 1 }
+      return {
+        count: 1,
+        count1: 1
+      }
+    },
+    methods: {
+      handleAddCount(param) {
+        this.count1 = param
+      }
     },
     template: `
-      <counter v-model="count" />
+      <counter v-model="count" v-model:count1="count1" @notify-parent="handleAddCount"/>
     `
   });
 
   app.component('counter', {
-    props: ['modelValue'],
+    props: ['modelValue', 'count1'],
+    // 数组方式声明emit事件
+    // emits: ['notifyParent', 'update:count1', 'update:modelValue'],
+
+    // 对象语法
+    emits: {
+      // 带有验证函数
+      notifyParent: (param) => {
+        return param < 10
+      },
+      // 没有验证函数
+      'update:count1': null,
+      'update:modelValue': null
+    },
     methods: {
       handleClick() {
         this.$emit('update:modelValue', this.modelValue + 3);
+      },
+      handleClick1() {
+        this.$emit('update:count1', this.count1 + 3);
+      },
+      notify() {
+        this.$emit('notifyParent', this.count1 + 3);
       }
     },
     template: `
       <div @click="handleClick">{{modelValue}}</div>
+      <div @click="handleClick1">{{count1}}</div>
+      <button @click="notify">notify</button>
     `
   });
-
   const vm = app.mount('#root');
 </script>
 </html>

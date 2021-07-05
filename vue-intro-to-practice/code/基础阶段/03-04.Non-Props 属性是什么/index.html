@@ -10,7 +10,9 @@
   <div id="root"></div>
 </body>
 <script>
-  // Non-prop 属性
+  // Non-prop 属性: 使用组件时, 虽然传递了属性, 但是组件中没有使用props接收
+  //    组件仍然可以通过`$attrs`使用这些 Non-prop属性
+  //    通过`inheritAttrs` 控制是否开启 Non-prop属性
   const app = Vue.createApp({
     template: `
       <div>

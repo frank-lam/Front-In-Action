@@ -10,27 +10,28 @@
   <div id="root"></div>
 </body>
 <script>
+  // 单项数据流的概念: 子组件可以使用父组件传递过来的数据，但是绝对不能修改传递过来的数据
+
   // v-bind="params"
   // :content="params.content" :a="params.a" :b="params.b" :c="params.c"
   // 属性传的时候，使用 content-abc 这种命名，接的时候，使用 contentAbc 命名
-  // 单项数据流的概念: 子组件可以使用父组件传递过来的数据，但是绝对不能修改传递过来的数据
   const app = Vue.createApp({
     data() {
       return { num: 1 }
     },
     template: `
       <div>
-        <counter :count="num" />
-        <counter :count="num" />
-        <counter :count="num" />
+        <counter :count-num="num" />
+        <counter :count-num="num" />
+        <counter :count-num="num" />
       </div>
     `
   });
 
   app.component('counter', {
-    props: ['count'],
+    props: ['countNum'],
     // 如果强行修改, 会提示 [Vue warn]: Attempting to mutate prop "count". Props are readonly.
-    template: `<div @click="count += 1">{{count}}</div>`
+    template: `<div @click="countNum += 1">{{countNum}}</div>`
   });
 
   const vm = app.mount('#root');

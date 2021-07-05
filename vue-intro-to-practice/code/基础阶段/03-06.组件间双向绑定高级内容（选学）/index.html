@@ -24,13 +24,17 @@
   app.component('counter', {
     props: {
       'modelValue': String,
+      // 对于带参数的 v-model 绑定，生成的 prop 名称将为 arg + "Modifiers"：
+      // v-model:foo.uppercase => fooModifiers
       'modelModifiers': {
+        // 默认值, 避免空指针
         default: ()=> ({})
       }
     },
     methods: {
       handleClick() {
         let newValue = this.modelValue + 'b';
+        //
         if(this.modelModifiers.uppercase) {
           newValue = newValue.toUpperCase();
         }

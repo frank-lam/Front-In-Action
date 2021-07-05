@@ -46,9 +46,15 @@
       },
     },
     template: `
-     <div> {{message}} {{newTotal}} </div>
+     <div> {{message}} {{total}} </div>
+     <div> {{message}} {{getTotal()}} </div>
     `
   });
   const vm = app.mount('#root');
+
+  // 当页面上的message发生变化时, 页面重新渲染 getTotal()会重新计算, 而计算属性total不会
+  // vm.message='hello world2'
+  // 当count发生变化时,  计算属性total 和 getTotal() 都会重新计算
+  // vm.count = 44
 </script>
 </html>

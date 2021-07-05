@@ -14,12 +14,14 @@
     data() {
       return { num: 1234 }
     },
+    // 当直接使用 content直接传递时, 类型都为String, 如果使用:content, 可以保留类型
+    // <div><test content="num" /></div>
     template: `
       <div><test :content="num" /></div>
     `
   });
 
-  // type:String, Boolean, Array, Object, Function, Symbol
+  // type: String, Boolean, Array, Object, Function, Symbol
   // required 必填
   // default 默认值
   app.component('test', {
